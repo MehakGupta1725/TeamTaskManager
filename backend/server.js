@@ -30,6 +30,10 @@ res.json({
 message:"Welcome Admin"});
 });
 
+console.log("SERVER STARTING...");
+console.log("PORT:", process.env.PORT);
+console.log("DB_HOST:", process.env.DB_HOST);
+
 const PORT = process.env.PORT || 5000;
 
 sequelize.sync()
