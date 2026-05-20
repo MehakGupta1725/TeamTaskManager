@@ -34,7 +34,7 @@ localStorage.getItem("token")
 const response =
 await axios.get(
 
-"http://localhost:5000/api/tasks",
+"https://teamtaskmanager-2gjg.onrender.com/api/tasks",
 
 {
 
@@ -70,7 +70,7 @@ localStorage.getItem("token")
 
 await axios.patch(
 
-`http://localhost:5000/api/tasks/${id}/status`,
+`https://teamtaskmanager-2gjg.onrender.com/api/tasks/${id}/status`,
 
 {status},
 

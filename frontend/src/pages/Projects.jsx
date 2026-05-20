@@ -51,7 +51,7 @@ localStorage.getItem("token")
 const response =
 await axios.get(
 
-"http://localhost:5000/api/projects",
+"https://teamtaskmanager-2gjg.onrender.com/api/projects",
 
 {
 
@@ -102,7 +102,7 @@ localStorage.getItem("token")
 
 await axios.post(
 
-"http://localhost:5000/api/projects",
+"https://teamtaskmanager-2gjg.onrender.com/api/projects",
 
 formData,
 
@@ -156,7 +156,7 @@ return
 }
 await axios.delete(
 
-`http://localhost:5000/api/projects/${id}`,
+`https://teamtaskmanager-2gjg.onrender.com/api/projects/${id}`,
 
 {
 

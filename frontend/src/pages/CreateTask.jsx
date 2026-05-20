@@ -46,7 +46,7 @@ try{
 const response =
 await axios.get(
 
-"http://localhost:5000/api/projects",
+"https://teamtaskmanager-2gjg.onrender.com/api/projects",
 
 {
 
@@ -80,7 +80,7 @@ try{
 const response =
 await axios.get(
 
-"http://localhost:5000/api/auth/users",
+"https://teamtaskmanager-2gjg.onrender.com/api/auth/users",
 
 {
 
@@ -128,7 +128,7 @@ try{
 
 await axios.post(
 
-"http://localhost:5000/api/tasks",
+"https://teamtaskmanager-2gjg.onrender.com/api/tasks",
 
 formData,
 

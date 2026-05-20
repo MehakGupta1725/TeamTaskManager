@@ -34,7 +34,7 @@ localStorage.getItem("token")
 const response =
 await axios.get(
 
-"http://localhost:5000/api/tasks/dashboard",
+"https://teamtaskmanager-2gjg.onrender.com/api/tasks/dashboard",
 
 {
 
