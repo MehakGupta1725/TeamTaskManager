@@ -192,7 +192,8 @@ return(
 
 {
 
-user?.role==="Admin"
+user?.role?.toLowerCase()
+==="admin"
 
 ? (
 
@@ -306,7 +307,8 @@ className="bg-white rounded-3xl shadow-lg p-8 hover:shadow-2xl transition-all"
 
 {
 
-user?.role==="Admin"
+user?.role?.toLowerCase()
+==="admin"
 
 &&
 

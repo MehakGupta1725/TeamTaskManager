@@ -79,7 +79,8 @@ element={
 
 JSON.parse(
 localStorage.getItem("user")
-)?.role==="Admin"
+)?.role?.toLowerCase()
+==="admin"
 
 ?
 

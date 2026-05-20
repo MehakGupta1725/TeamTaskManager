@@ -95,7 +95,10 @@ icon:<FaTasks/>
 
 ]
 
-if(user?.role==="Admin"){
+if(
+user?.role?.toLowerCase()
+==="admin"
+){
 
 menuItems.push({
 

@@ -169,10 +169,10 @@ GET    /api/tasks/dashboard
 
 Frontend:
 Frontend URL Here
-
+https://teamtaskmanager-frontend.netlify.app/
 Backend:
 Backend URL Here
-
+https://teamtaskmanager-2gjg.onrender.com
 
 👩‍💻 Author
 Mehak Gupta
