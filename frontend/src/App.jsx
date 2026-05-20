@@ -11,7 +11,7 @@ Route
 from "react-router-dom"
 
 import Login from "./pages/Login"
-import Signup from "./pages/Signup"
+import Signup from "./pages/SignUp"
 import Dashboard from "./pages/Dashboard"
 import Tasks from "./pages/Tasks"
 import CreateTask from "./pages/CreateTask"
